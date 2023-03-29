@@ -12,7 +12,7 @@ public class ZKlavesnice {
             System.out.println(napis_pre_uzivatela);
             c = (char) zklavesnice.read();
         } catch (Exception e) {
-            System.out.println("nepodarilo sa");
+            System.out.println("Nepodarilo sa nacitat. Skus znova");
             c = readChar(napis_pre_uzivatela);
         }
 
@@ -27,7 +27,7 @@ public class ZKlavesnice {
             System.out.println(napis_pre_uzivatela);
             s = zklavesnice.readLine();
         } catch (Exception e) {
-            System.out.println("nepodarilo sa");
+            System.out.println("Nepodarilo sa nacitat. Skus znova");
             s = readString(napis_pre_uzivatela);
         }
 
@@ -44,7 +44,7 @@ public class ZKlavesnice {
             s = zklavesnice.readLine();
             n = Integer.parseInt(s);
         } catch (Exception e) {
-            System.out.println("nepodarilo sa");
+            System.out.println("Nepodarilo sa nacitat. Skus znova");
             n = readInt(napis_pre_uzivatela);
         }
 
@@ -61,7 +61,7 @@ public class ZKlavesnice {
             s = zklavesnice.readLine();
             x = Double.parseDouble(s);
         } catch (Exception e) {
-            System.out.println("nepodarilo sa");
+            System.out.println("Nepodarilo sa nacitat. Skus znova");
             x = readDouble(napis_pre_uzivatela);
         }
 
